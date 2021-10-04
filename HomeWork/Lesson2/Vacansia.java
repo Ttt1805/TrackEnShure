@@ -1,4 +1,4 @@
-package TrackEnShure.HomeWork.Lesson2;
+package HomeWork.Lesson2;
 
 abstract public class Vacansia implements EmployeeType{
     protected String nameVacansia;

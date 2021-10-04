@@ -1,4 +1,4 @@
-package TrackEnShure.HomeWork.Lesson2;
+package HomeWork.Lesson2;
 
 public class Employee {
     final private String employeeName;

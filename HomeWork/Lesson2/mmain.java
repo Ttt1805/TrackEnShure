@@ -1,8 +1,8 @@
-package TrackEnShure.HomeWork.Lesson2;
+package HomeWork.Lesson2;
 
 import java.util.Arrays;
 
-public class mmain {
+public class Mmain {
     public static void main(String[] args) {
         Employee[] uEmployees = {new Employee("Vasya",new Teacher()),
                                  new Employee("Petya", new Assistant()),
