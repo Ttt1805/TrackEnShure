@@ -41,7 +41,7 @@ public class Mmain {
         bouquet.sortByFreshness();
         bouquet.show();
 
-        ElemBouquet fl = bouquet.FindFlowers(40, 60);
+        ElemBouquet fl = bouquet.FindFlowers(40, 45);
         if (fl != null) {
             fl.show();
         }

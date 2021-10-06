@@ -4,14 +4,14 @@ package HomeWork.Lesson3.FlowersShop;
 public abstract class AFlower implements ElemBouquet{
     protected final String color;
 
-    protected int longFlower;
+    protected int lengthFlower;
     protected Sizes size;
     protected int freshness;
     protected double price;
 
 
-    public AFlower(int longFlower, String color, Sizes size, int freshness, double price) {
-        this.longFlower = longFlower;
+    public AFlower(int lengthFlower, String color, Sizes size, int freshness, double price) {
+        this.lengthFlower = lengthFlower;
         this.color = color;
         this.size = size;
         this.freshness = freshness;
@@ -19,8 +19,8 @@ public abstract class AFlower implements ElemBouquet{
     }
 
 
-    public int getLongFlower() {
-        return longFlower;
+    public int getLengthFlower() {
+        return lengthFlower;
     }
 
     public String getColor() {
@@ -37,8 +37,8 @@ public abstract class AFlower implements ElemBouquet{
 
     public abstract String getKindFlower();
 
-    public void setLongFlower(int longFlower) {
-        this.longFlower = longFlower;
+    public void setLengthFlower(int lengthFlower) {
+        this.lengthFlower = lengthFlower;
     }
 
     public void setSize(Sizes size) {
@@ -74,7 +74,7 @@ public abstract class AFlower implements ElemBouquet{
         return getKindFlower()+"{" +
                 "color='" + color + '\'' +
                 ", size=" + size +
-                ", long=" + longFlower +
+                ", long=" + lengthFlower +
                 ", freshness=" + freshness +"%"+
                 ", price=" + price +
                 '}';

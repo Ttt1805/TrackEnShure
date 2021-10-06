@@ -41,14 +41,14 @@ public class CreateBouquet implements  ElemBouquet{
 
     public void sortByFreshness(){
         BouquetSortFreshness freshnessComp = new BouquetSortFreshness();
-        Collections.sort(bouquet,freshnessComp);
+        bouquet.sort(freshnessComp);
     }
 
     public ElemBouquet FindFlowers(int minLong, int maxLong){
         ElemBouquet fl = null;
         for (ElemBouquet el: bouquet) {
             if (el.getType().equals("flower")) {
-                int longFl = ((AFlower) el).getLongFlower();
+                int longFl = ((AFlower) el).getLengthFlower();
                 if (longFl >= minLong && longFl <= maxLong)
                 {
                     fl = el;
