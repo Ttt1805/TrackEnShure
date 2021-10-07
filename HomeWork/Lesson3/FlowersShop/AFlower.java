@@ -71,11 +71,11 @@ public abstract class AFlower implements ElemBouquet{
     @Override
     public String toString() {
 
-        return getKindFlower()+"{" +
+        return getKindFlower() + "{" +
                 "color='" + color + '\'' +
                 ", size=" + size +
                 ", long=" + lengthFlower +
-                ", freshness=" + freshness +"%"+
+                ", freshness=" + freshness + "%" +
                 ", price=" + price +
                 '}';
     }

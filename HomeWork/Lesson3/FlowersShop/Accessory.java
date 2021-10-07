@@ -1,8 +1,6 @@
 package HomeWork.Lesson3.FlowersShop;
 
-import java.sql.SQLOutput;
-
-public class Accessory implements ElemBouquet {
+public class  Accessory implements ElemBouquet {
     private double price;
     private String name;
 

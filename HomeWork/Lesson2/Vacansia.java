@@ -11,8 +11,4 @@ abstract public class Vacansia implements EmployeeType{
         this.nameVacansia = nameVacansia;
     }
 
-    @Override
-    public void Working() {
-
-    }
 }

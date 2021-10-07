@@ -9,9 +9,9 @@ public class CreateBouquet implements  ElemBouquet{
 
     @Override
     public double getPrice() {
-        double sum =0;
-        for (ElemBouquet el:bouquet) {
-            sum+=el.getPrice();
+        double sum = 0;
+        for (ElemBouquet el : bouquet) {
+            sum += el.getPrice();
         }
         return sum;
     }
@@ -34,7 +34,7 @@ public class CreateBouquet implements  ElemBouquet{
     }
 
     public void remove (ElemBouquet ... els){
-        for (ElemBouquet el:els) {
+        for (ElemBouquet el : els) {
             bouquet.remove(el);
         }
     }
@@ -46,7 +46,7 @@ public class CreateBouquet implements  ElemBouquet{
 
     public ElemBouquet FindFlowers(int minLong, int maxLong){
         ElemBouquet fl = null;
-        for (ElemBouquet el: bouquet) {
+        for (ElemBouquet el : bouquet) {
             if (el.getType().equals("flower")) {
                 int longFl = ((AFlower) el).getLengthFlower();
                 if (longFl >= minLong && longFl <= maxLong)

@@ -1,6 +1,7 @@
 package HomeWork.Lesson2;
 
 public class Teacher extends Vacansia {
+
     Teacher(){
         setNameVacansia("Преподаватель");
     }
@@ -8,6 +9,5 @@ public class Teacher extends Vacansia {
     @Override
     public void Working() {
         System.out.println("читает лекцию");
-
     }
 }

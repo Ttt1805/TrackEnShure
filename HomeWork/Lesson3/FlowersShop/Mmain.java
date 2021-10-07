@@ -1,7 +1,5 @@
 package HomeWork.Lesson3.FlowersShop;
 
-import java.util.Arrays;
-
 public class Mmain {
     public static void main(String[] args) {
         ElemBouquet rose1 = new Rose("red",Sizes.BIG,80,50, 35);
