@@ -6,10 +6,9 @@ import java.util.List;
 
 public class PresentBox implements ElementPresent{
     List<ElementPresent> box = new ArrayList<>();
+
     void add(ElementPresent... els){
-        for (ElementPresent el:els) {
-            box.add(el);
-        }
+        Collections.addAll(box, els);
     }
 
     void remove(ElementPresent... els){
@@ -21,7 +20,7 @@ public class PresentBox implements ElementPresent{
 
     @Override
     public void show() {
-        for (ElementPresent el:box) {
+        for (ElementPresent el : box) {
             el.show();
         }
 
@@ -30,7 +29,7 @@ public class PresentBox implements ElementPresent{
     @Override
     public int getWeight() {
         int totalWeight = 0;
-        for (ElementPresent el:box) {
+        for (ElementPresent el : box) {
             totalWeight += el.getWeight();
         }
 
@@ -40,19 +39,21 @@ public class PresentBox implements ElementPresent{
     @Override
     public int getSugarCont() {
         int totalSugarCont = 0;
-        for (ElementPresent el:box) {
+        for (ElementPresent el : box) {
             totalSugarCont += el.getSugarCont();
         }
         return totalSugarCont;
     }
 
     ElementPresent findCandy (int minShuga, int maxShuga){
-        ElementPresent element = box.stream().filter(el -> ((el.getSugarCont()>=minShuga)&&(el.getSugarCont()<=maxShuga))).findFirst().orElse(null);
-        return element;
+        return box.stream()
+                .filter(el -> ((el.getSugarCont() >= minShuga) && (el.getSugarCont() <= maxShuga)))
+                .findFirst()
+                .orElse(null);
     }
 
     void sortedByWeight(){
         PresentBoxSortWeight comparatorWeight = new PresentBoxSortWeight();
-        Collections.sort(box,comparatorWeight);
+        box.sort(comparatorWeight);
     }
 }

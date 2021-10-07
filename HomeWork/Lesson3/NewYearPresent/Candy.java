@@ -31,7 +31,7 @@ public abstract  class Candy implements ElementPresent{
 
     @Override
     public String toString() {
-        return "Candy " + getType() +" "+getName()+ " {" +
+        return "Candy " + getType() + " "+getName() + " {" +
                 "weight=" + weight +
                 ", sugarCont=" + sugarCont +
                 '}';
