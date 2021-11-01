@@ -1,0 +1,13 @@
+{"citizenId":2,"fullName":"Петров Петр Петрович","passportID":"KK123456","inn":9876540123,"birthday":"1985-05-02","isMilitary":true,"isQuarantine":false,"isDeputy":true,"stationId":3}
+{"citizenId":10,"fullName":"Иванова Клариса Эдуардовна","passportID":"KK865788","inn":1256685405,"birthday":"1977-11-03","isMilitary":false,"isQuarantine":true,"isDeputy":true,"stationId":4}
+{"citizenId":8,"fullName":"Сидорова Алла Петровна","passportID":"KK098976","inn":1098790895,"birthday":"1970-01-16","isMilitary":true,"isQuarantine":false,"isDeputy":false,"stationId":3}
+{"citizenId":5,"fullName":"Петрова Антонина Петровна","passportID":"KK587469","inn":1596234870,"birthday":"1975-05-15","isMilitary":false,"isQuarantine":false,"isDeputy":false,"stationId":2}
+{"citizenId":11,"fullName":"Севастьянов Андрей Кирилович","passportID":"CC786555","inn":1122233445,"birthday":"1985-04-11","isMilitary":true,"isQuarantine":false,"isDeputy":true,"stationId":3}
+{"citizenId":4,"fullName":"Кирилов Карл Антонович","passportID":"KP456987","inn":3697410258,"birthday":"2001-12-12","isMilitary":false,"isQuarantine":true,"isDeputy":false,"stationId":4}
+{"citizenId":9,"fullName":"Кошелев Карл Иванович","passportID":"KK678509","inn":1230988765,"birthday":"1980-03-17","isMilitary":false,"isQuarantine":true,"isDeputy":false,"stationId":4}
+{"citizenId":6,"fullName":"Шумов Максим Антонович","passportID":"KK765498","inn":1098765777,"birthday":"2001-02-02","isMilitary":false,"isQuarantine":false,"isDeputy":true,"stationId":1}
+{"citizenId":3,"fullName":"Сидоров Сидор Петрович","passportID":"KL852741","inn":7410258963,"birthday":"2006-08-11","isMilitary":false,"isQuarantine":false,"isDeputy":false,"stationId":2}
+{"citizenId":12,"fullName":"Чувакин Миксим Юрьевич","passportID":"KK876905","inn":1098765781,"birthday":"1988-01-03","isMilitary":false,"isQuarantine":false,"isDeputy":false,"stationId":2}
+{"citizenId":13,"fullName":"Николау Михаил Андреевич","passportID":"KL876590","inn":1098877664,"birthday":"1984-06-05","isMilitary":false,"isQuarantine":true,"isDeputy":false,"stationId":4}
+{"citizenId":7,"fullName":"Сидорова Анна Ильинична","passportID":"KC098712","inn":1098767554,"birthday":"2009-01-15","isMilitary":true,"isQuarantine":false,"isDeputy":true,"stationId":3}
+{"citizenId":1,"fullName":"Иванов Иван Иванович","passportID":"КК265987","inn":1234567890,"birthday":"1980-06-22","isMilitary":false,"isQuarantine":false,"isDeputy":true,"stationId":1}
