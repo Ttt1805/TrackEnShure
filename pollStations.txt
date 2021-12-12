@@ -1,0 +1,4 @@
+{"id":1,"address":"Новая, 12","typeStation":"USUALLY","citizensId":[1],"results":{"6":0,"4":1,"5":0}}
+{"id":3,"address":"Секретная, 1","typeStation":"MILITARY","citizensId":[2,8,11],"results":{"6":2,"4":0,"5":1}}
+{"id":4,"address":"Карантинная, 24","typeStation":"QUARANTINE","citizensId":[4,9,10,13],"results":{"6":2,"4":1,"5":1}}
+{"id":2,"address":"Старая, 54","typeStation":"USUALLY","citizensId":[5,12,1],"results":{"6":1,"4":1,"5":0}}
